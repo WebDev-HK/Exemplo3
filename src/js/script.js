@@ -42,3 +42,16 @@ console.log(parseInt(numFloat));
 let numString ="123.456";
 console.log(parseFloat(NumString));
 
+//METODOS
+//LENGTH = VERIFICA O TAMANHO DA STRING
+let frase = "O mundo da tecnologia"
+console.log(frase.length);
+
+//IndexOf - retorna um trecho do texto
+
+let texto="a Programacao indomavel e sustentavel";
+console.log(texto.indexOf(""))
+
+//Slice - retorna um trecho do texto com inicio e fim
+let info="processamento de ponta";
+console.log(info.slice(15,19))
