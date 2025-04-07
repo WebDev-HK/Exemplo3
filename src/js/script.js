@@ -3,8 +3,8 @@
 var nome = "fiap"
 console.log(nome)
 
-let idade = 19
-console.log(idade)
+let idadex = 19
+console.log(idadex)
 
 const sobrenome = "Fiapinho"
 console.log(sobrenome)
@@ -40,7 +40,7 @@ let numFloat = 123.456;
 console.log(parseInt(numFloat));
 
 let numString = "123.456";
-console.log(parseFloat(NumString));
+console.log(parseFloat(numString));
 
 //METODOS
 //LENGTH = VERIFICA O TAMANHO DA STRING
@@ -69,11 +69,11 @@ console.log(num1 / num2);
 // OPERADORES LOGICOS
 
 const num3 = 20;
-const num4 = "30";
+const num4 = 30;
 
-console.log(num3 < num4);
-console.log(num3 > num4 && num4 < num3)
-console.log(num3 > num4 || num3 < num4)
+console.log(num3 < num4);  //verdadeiro ou falso
+console.log(num3 > num4 && num4 < num3) //verdadeiro ou falso vale p 2 "e"
+console.log(num3 > num4 || num3 < num4) //"ou"
 
 // OPERADORES DE COMPARACAO
 
@@ -81,3 +81,50 @@ console.log(num3 == num4);
 console.log(num3 === num4);
 
 // == -> compara a variavel   === -> compara e ve o tipo da variavel
+
+// ESTRUTURA CONDICIONAL
+// if
+
+let num=12
+if(num==10){
+    console.log("e verdadeiro")
+}
+
+// if - else
+let usuario="teste"
+if(usuario=="teste"){
+    console.log("usuario correto")
+}else{
+    console.log("Usuario incorreto")
+}
+// if encadeado / alinhado
+
+let idades =15
+
+if(idades<15){
+    console.log("Menor de idade")
+}else if(idades>15 && idades<18){
+    console.log("nao eh maior mas pde entrar")
+}else{
+    console.log("pode entrar e maior")
+}
+
+// SWITCH
+
+let time="Corinthians"
+switch(time){
+    case "Corinthians":
+        console.log("melhor time")
+        break;
+    case "Sao Paulo":
+        console.log("nao e o melhor time")
+        break;
+    case "Palmeiras":
+        console.log("nao tem mundial")
+        break
+    default:
+        console.log("nenhuma as opcoes")
+}
+
+ // TERNARIO
+ 
